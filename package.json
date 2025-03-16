@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev --port 8070",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare",
+    "lint": "eslint \"**/*.{vue,js}\" --fix",
+    "lint-eslint": "eslint --ignore-path .gitignore **/*{vue,js,json} --fix",
+    "lint-prettier": "prettier --write \"**/*.(vue|js|json)\""
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-vue": "^9.19.2",
+    "nuxt": "^3.9.0",
+    "prettier": "^3.1.1",
+    "vue": "^3.4.3",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.10.1",
+    "axios": "^1.8.3",
+    "pinia": "^3.0.1"
+  }
+}

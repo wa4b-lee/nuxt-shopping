@@ -1,0 +1,13 @@
+<template>
+  <div>
+    <h1>상품페이지</h1>
+    <ul>
+      <li>상품 1</li>
+      <li>상품 2</li>
+      <li>상품 3</li>
+    </ul>
+  </div>
+</template>
+
+<script setup>
+</script>
