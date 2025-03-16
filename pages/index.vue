@@ -17,7 +17,7 @@
 </template>
 
 <script setup>
-import { fetchProductByKeyword } from '~/api';
+import { fetchProductByKeyword, fetchProducts } from '~/api';
 import { useCartStore } from '~/stores/index'
 
 // Pinia store 사용
@@ -25,10 +25,9 @@ const cartStore = useCartStore();
 const router = useRouter();
 const searchKeyword = ref('');
 
-const { data: products } = await useAsyncData('products', () =>
-  $fetch('http://localhost:3000/products') // 데이터 요청
-);
-
+const { data: products } = await useAsyncData('products', () => {
+  return fetchProducts(); 
+});
 
 
 const moveToDetailPage = (id) => {

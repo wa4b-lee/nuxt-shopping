@@ -189,33 +189,21 @@
       "imageUrl": "https://s.pstatic.net/static/www/mobile/edit/20250225_1095/upload_17404725631767HwVM.png"
     },
     {
-      "id": 8,
-      "name": "Sleek Steel Towels",
-      "price": "607.00",
-      "imageUrl": "https://s.pstatic.net/static/www/mobile/edit/20250225_1095/upload_17404725631767HwVM.png"
-    },
-    {
-      "id": 3,
-      "name": "Practical Metal Gloves",
-      "price": "702.00",
-      "imageUrl": "https://s.pstatic.net/static/www/mobile/edit/20250225_1095/upload_17404725631767HwVM.png"
-    },
-    {
-      "id": 11,
-      "name": "Practical Granite Chicken",
-      "price": "518.00",
-      "imageUrl": "https://s.pstatic.net/static/www/mobile/edit/20250225_1095/upload_17404725631767HwVM.png"
-    },
-    {
       "id": 2,
       "name": "Handcrafted Frozen Pizza33",
       "price": "315.00",
       "imageUrl": "https://s.pstatic.net/static/www/mobile/edit/20250225_1095/upload_17404725631767HwVM.png"
     },
     {
-      "id": 17,
-      "name": "Sleek Soft Shirt",
-      "price": "654.00",
+      "id": 6,
+      "name": "Handmade Granite Mouse",
+      "price": "591.00",
+      "imageUrl": "https://s.pstatic.net/static/www/mobile/edit/20250225_1095/upload_17404725631767HwVM.png"
+    },
+    {
+      "id": 9,
+      "name": "Handcrafted Plastic Computer",
+      "price": "289.00",
       "imageUrl": "https://s.pstatic.net/static/www/mobile/edit/20250225_1095/upload_17404725631767HwVM.png"
     }
   ]
