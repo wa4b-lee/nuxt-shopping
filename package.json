@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev --port 8070",
+    "start": "node .output/server/index.mjs",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
     "postinstall": "nuxi prepare",
